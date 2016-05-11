@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>插件检测函数</title>
+</head>
+<body>
+    <script>
+        function pluginsCheck() {
+
+            for (var i=0;i<navigator.plugins.length;i++){
+                document.write(navigator.plugins[i].name.toLowerCase()+"<br/>");
+            }
+        }
+        pluginsCheck();
+    </script>
+</body>
+</html>
